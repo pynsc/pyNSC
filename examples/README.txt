@@ -1,4 +1,4 @@
-Shablona Gallery
+NSC Gallery
 ================
 
 This is the main gallery page for sphinx-gallery. It contains preview

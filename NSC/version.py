@@ -30,42 +30,37 @@ description = "NSC: a template for small scientific Python projects"
 # Long description will go up on the pypi page
 long_description = """
 
-Shablona
-========
-Shablona is a template project for small scientific Python projects.
+pyNSC
+=====
 
-It contains software implementations of an analysis of some simple data, but
-more importantly, it contains infrastructure for testing, documentation,
-continuous integration and deployment, which can be easily adapted
-to use in other projects.
+pyNSC is a Python package for nonnegative sparse coding (NSC).
 
 To get started using these components in your own software, please go to the
 repository README_.
 
-.. _README: https://github.com/uwescience/NSC/blob/master/README.md
+.. _README: https://github.com/pynsc/pyNSC/blob/master/README.md
 
 License
 =======
-``NSC`` is licensed under the terms of the MIT license. See the file
+``pyNSC`` is licensed under the terms of the MIT license. See the file
 "LICENSE" for information on the history of this software, terms & conditions
 for usage, and a DISCLAIMER OF ALL WARRANTIES.
 
 All trademarks referenced herein are property of their respective holders.
 
-Copyright (c) 2015--, Ariel Rokem, The University of Washington
-eScience Institute.
+Copyright (c) 2018--, Michael Beyeler, University of Washington
 """
 
-NAME = "NSC"
-MAINTAINER = "Ariel Rokem"
-MAINTAINER_EMAIL = "arokem@gmail.com"
+NAME = "pyNSC"
+MAINTAINER = "Michael Beyeler"
+MAINTAINER_EMAIL = "mbeyeler@uw.edu"
 DESCRIPTION = description
 LONG_DESCRIPTION = long_description
-URL = "http://github.com/uwescience/NSC"
+URL = "http://github.com/pynsc/pyNSC"
 DOWNLOAD_URL = ""
 LICENSE = "MIT"
-AUTHOR = "Ariel Rokem"
-AUTHOR_EMAIL = "arokem@gmail.com"
+AUTHOR = "Michael Beyeler"
+AUTHOR_EMAIL = "mbeyeler@uw.edu"
 PLATFORMS = "OS Independent"
 MAJOR = _version_major
 MINOR = _version_minor
